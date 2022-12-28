@@ -100,6 +100,20 @@ body {
 .header .item {
   margin-right: 46px;
 }
+.current:hover,
+.current:focus {
+  color: var(--hover-text-color);
+}
+.current::after {
+  content: "";
+  height: 4px;
+  display: block;
+  width: 100%;
+  background-color: var(--hover-text-color);
+  border-radius: 2px;
+  position: relative;
+  top: 26.5px;
+}
 /* title page with button */
 .title-section {
   padding: 195px;

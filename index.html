@@ -25,7 +25,7 @@
           <a href="index.html" class="top-logo"><span class="logo-span">Web</span>Studio </a>
           <nav>
             <ul class="top-section-list marker-list">
-              <li class="item"><a class="top-link" href="#">Agencja</a></li>
+              <li class="item current"><a class="top-link" href="#">Agencja</a></li>
               <li class="item">
                 <a class="top-link" href="portfolio.html">Portfolio</a>
               </li>
@@ -60,7 +60,7 @@
           EFEKTYWNE ROZWIĄZANIA <br />
           DLA WASZEGO BIZNESU
         </h1>
-        <button type="button" class="button-main-title">Zamów usługe</button>
+        <button type="button" class="button-main-title" data-model-open>Zamów usługe</button>
       </section>
       <section class="section lorem-section">
         <!--czym_sie_zajmujemy-->
@@ -147,6 +147,7 @@
                 width="370"
                 height="294"
               />
+              <div class="layaut"></div>
             </li>
           </ul>
         </div>
@@ -394,5 +395,9 @@
         </div>
       </div>
     </footer>
+    <div class="modal is-hidden" data-modal>
+      <button data-modal-close>close</button>
+    </div>
+    <script src="/js/modal.js"></script>
   </body>
 </html>
